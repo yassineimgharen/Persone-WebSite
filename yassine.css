@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior:smooth;
+}
+header{
+    background-color: #e0e4ec;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 12;
+    align-items: center;
+    padding: 10px 120px;
+    box-shadow: 0 2px 5px white;
+}
+header .logo{
+    text-decoration: none;
+    color: #252131;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 22px;
+}
+header .navigation a{
+    text-decoration: none;
+    color: #3a5a81;
+    margin-left: 15px;
+    font-weight: bold;
+    transition:color 0.5s;
+}
+.navigation a:hover{
+    color: #3a5a81;
+}
+section{
+    padding: 100px;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.info h2{
+    color: #e0e4ec;
+    font-size: 18px;
+}
+.info h2 span{
+    color:#3a5a81;
+    font-size: 42px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.info h3{
+    color: #e0e4ec;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+/* From uiverse.io by @adamgiebl */
+button {
+    margin-bottom:20px ;
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+}
+
+button svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button:hover svg {
+    transform: translateX(5px) rotate(90deg);
+}
+
+button:hover span {
+    transform: translateX(7px);
+}
+.icons a {
+    margin-left: 10px;
+    color: #e0e4ec;
+    font-size: 20px;
+}
+.section{
+    padding:60px 100px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #3a5a81;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    width: 16rem;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    text-align: center;
+    background-color: white;
+    transition: 0.5s ease;
+    box-shadow: 0 5px 20px rgba(1,1,1,15%);
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card .fa-solid{
+    color: #3a5a81;
+    font-size: 90px;
+    margin-bottom: 30px;
+}
+.card h3{
+    color: #3a5a81;
+    margin-bottom:10px;
+}
+footer{
+    padding: 50px 80px;
+}
+.projects{
+    background-color: #0f0c29;
+}
+.project-card{
+    background: white;
+    border: 1px solid white;
+    min-height: 11em;
+    width: 19em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px ;
+    transition: 0.6s ease;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-image{
+    opacity: 0.8;
+}
+.project-image{
+    width: 100%;
+}
+.project-info{
+    padding: 1em;
+}
+.project-p{
+    font-size: 0.9em;
+    color: black;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color: #3a5a81;
+}
+.cards-contact{
+    padding: 50px;
+}
+.cards-contact .fa-solid{
+    font-size: 42px;
+}
+footer{
+    background: #0f0c29;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+footer p{
+    color:white;
+}
+
+
